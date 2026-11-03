@@ -28,7 +28,7 @@ menus; the VS Code extension VSIX projects `user-invocable: true` to expose
 | `improve` | `/eval improve` | Add a failure case to this eval and save a revised copy. |
 | `run` | `/eval run` | Run this eval. |
 | `compare` | `/eval compare` | Compare these two saved runs, or compare this task with and without a skill. |
-| `setup` | `/eval setup` | Set up evals and a GitHub Actions CI workflow for this project. |
+| `setup` | `/eval setup` | Set up eval paths and test suites for this project. |
 
 ## Install
 
@@ -119,9 +119,6 @@ Running evals uses the local eval runner. Open the Evals Canvas and go to
 | `@microsoft/vally-cli` | 0.19.0 | Eval validation and execution |
 | GitHub Copilot CLI | 1.0.85 | Native custom-agent and MCP execution |
 | Git | 2.28.0 | Native run isolation |
-
-For automated pull-request checks in GitHub Actions, `/eval setup` can also add
-a workflow using `github/evals-action`.
 
 ## Runs and costs
 
