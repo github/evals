@@ -1,0 +1,323 @@
+{
+  "profile": "minified",
+  "version": "0.23.3",
+  "architectures": [
+    "x64",
+    "arm64"
+  ],
+  "vscodeCanvasEntry": "com.github.copilot/extensions/copilot-evals/workbench.mjs",
+  "files": [
+    {
+      "path": "com.github.copilot/extensions/copilot-evals/copilot-extension.json",
+      "bytes": 46,
+      "sha256": "bae8cf3bbbf0e02fdfbc1f1535ca5e29396fcc21e3c51e7baf2a55034d833f2e"
+    },
+    {
+      "path": "com.github.copilot/extensions/copilot-evals/extension.mjs",
+      "bytes": 6253,
+      "sha256": "60d0480988e14aee5920b478c6a4dc303e4813866dce1c30fd598b632547d350"
+    },
+    {
+      "path": "com.github.copilot/extensions/copilot-evals/web/app.mjs",
+      "bytes": 254156,
+      "sha256": "a5bc144ee0e0f16c91b28adf44cc2f78f08c147507b558f3100b1858624d92ee"
+    },
+    {
+      "path": "com.github.copilot/extensions/copilot-evals/web/copilot-evals.svg",
+      "bytes": 2770,
+      "sha256": "d4f2eed34d1a0708b7b90680adaa5782eb6b75e4bcc99a9744c613f6129d6a8e"
+    },
+    {
+      "path": "com.github.copilot/extensions/copilot-evals/web/index.html",
+      "bytes": 421,
+      "sha256": "bb8e97ddb5b865d586938bcf14e50b16e2eeeecc498e6d31e11bf74e6acd6278"
+    },
+    {
+      "path": "com.github.copilot/extensions/copilot-evals/web/style.css",
+      "bytes": 61183,
+      "sha256": "a95f1cf622af9b7c6af79c61d7da8cbc9278322607e0f58f404a4fec5ad73012"
+    },
+    {
+      "path": "com.github.copilot/extensions/copilot-evals/workbench.mjs",
+      "bytes": 1584349,
+      "sha256": "c5175c8fba2719a6fa0d5400abe4525ce4ba76c2d956729568d818729b0d93d8"
+    },
+    {
+      "path": "dist/mcp/server.mjs",
+      "bytes": 1621937,
+      "sha256": "50f0c0386d4ad98bd0af2b66d274be17fcfacbc6d59392fb06178d8f1a3b0f47"
+    },
+    {
+      "path": "guidance/authoring/vally-0.19.md",
+      "bytes": 11772,
+      "sha256": "9660850468c202a0c683507868b49b94e3623f6e075b8b4eb68692e6226a968e"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 15519,
+      "sha256": "f79d1beaf5eae5bf7da1395f0e3f1839194829ce2a57a5cda26b0117dceb1ed2"
+    },
+    {
+      "path": "mcp.json",
+      "bytes": 244,
+      "sha256": "04008f1af52b6fa2fafd483d06413d400b8bea66a328f1d0f5d2bb2db35f37da"
+    },
+    {
+      "path": "native/deviceid/arm64/windows.node",
+      "bytes": 113664,
+      "sha256": "b94e318a0f8cca0542d5dcc30092711ca1898ca9db3063e54e723b3e9d7d86de"
+    },
+    {
+      "path": "native/deviceid/x64/windows.node",
+      "bytes": 115200,
+      "sha256": "39885aba3ca0007616a9a45ae2b96234efbc1c3b220d39a139da9e679ab78511"
+    },
+    {
+      "path": "native/owned-process/arm64/owned-process.exe",
+      "bytes": 21504,
+      "sha256": "b74725f64fb464ab3ed7414aaf4007a95e22a37c6f62e13f1b2186ce50809331"
+    },
+    {
+      "path": "native/owned-process/x64/owned-process.exe",
+      "bytes": 24064,
+      "sha256": "29f8607c2dfbafd4b72795e2c7213195ba1f395aec16715a6bf5051000238d9a"
+    },
+    {
+      "path": "plugin.json",
+      "bytes": 628,
+      "sha256": "0fccc8d3c234298f597d5d4d9420330d905387da02a5cf37cd3248987cf3646c"
+    },
+    {
+      "path": "skills/compare/SKILL.md",
+      "bytes": 11653,
+      "sha256": "98e2683827c7d55ba57cd5f283e649b755aeb578f2cc356a15bc4e4cb093c04e"
+    },
+    {
+      "path": "skills/create/references/agents.md",
+      "bytes": 1737,
+      "sha256": "1ce8cb1973f81ff1c387a0d0154aa17f58429d03c29fb1f37ee0b7bae0a838f8"
+    },
+    {
+      "path": "skills/create/references/hosts/vscode.md",
+      "bytes": 25074,
+      "sha256": "211ae4c9df53e328b145cd3e3f7822154aa01353d28c3374a8fc042d5f958669"
+    },
+    {
+      "path": "skills/create/references/instructions-and-prompts.md",
+      "bytes": 1469,
+      "sha256": "19223d1be8c09d77c0d54032fc4a880f34f84564f51e56c8554fb50c9e27bd2f"
+    },
+    {
+      "path": "skills/create/references/method.md",
+      "bytes": 14079,
+      "sha256": "9b1666de4f21f45f4142bc49ff7d723635e2ea61f72aeefff8e34b3bfd0ac303"
+    },
+    {
+      "path": "skills/create/references/skills.md",
+      "bytes": 4621,
+      "sha256": "2854780247163ac7607a556ddefe25721548e29524412d97fbf733defed1b7fd"
+    },
+    {
+      "path": "skills/create/references/tools-and-mcp.md",
+      "bytes": 5541,
+      "sha256": "14b47c1fa5666fa0163f284d5c30bfd6218e4a911e8449a8ce4882ec25ba2b29"
+    },
+    {
+      "path": "skills/create/references/vally-0.19.md",
+      "bytes": 11772,
+      "sha256": "9660850468c202a0c683507868b49b94e3623f6e075b8b4eb68692e6226a968e"
+    },
+    {
+      "path": "skills/create/SKILL.md",
+      "bytes": 18314,
+      "sha256": "fc300d61e4980a703d85c3cef89335abfb50f3ab6d7ce15a492197dbe2c87592"
+    },
+    {
+      "path": "skills/improve/references/agents.md",
+      "bytes": 1737,
+      "sha256": "1ce8cb1973f81ff1c387a0d0154aa17f58429d03c29fb1f37ee0b7bae0a838f8"
+    },
+    {
+      "path": "skills/improve/references/hosts/vscode.md",
+      "bytes": 25074,
+      "sha256": "211ae4c9df53e328b145cd3e3f7822154aa01353d28c3374a8fc042d5f958669"
+    },
+    {
+      "path": "skills/improve/references/instructions-and-prompts.md",
+      "bytes": 1469,
+      "sha256": "19223d1be8c09d77c0d54032fc4a880f34f84564f51e56c8554fb50c9e27bd2f"
+    },
+    {
+      "path": "skills/improve/references/method.md",
+      "bytes": 14079,
+      "sha256": "9b1666de4f21f45f4142bc49ff7d723635e2ea61f72aeefff8e34b3bfd0ac303"
+    },
+    {
+      "path": "skills/improve/references/skills.md",
+      "bytes": 4621,
+      "sha256": "2854780247163ac7607a556ddefe25721548e29524412d97fbf733defed1b7fd"
+    },
+    {
+      "path": "skills/improve/references/tools-and-mcp.md",
+      "bytes": 5541,
+      "sha256": "14b47c1fa5666fa0163f284d5c30bfd6218e4a911e8449a8ce4882ec25ba2b29"
+    },
+    {
+      "path": "skills/improve/references/vally-0.19.md",
+      "bytes": 11772,
+      "sha256": "9660850468c202a0c683507868b49b94e3623f6e075b8b4eb68692e6226a968e"
+    },
+    {
+      "path": "skills/improve/SKILL.md",
+      "bytes": 13131,
+      "sha256": "f3ccd1d85e50692af73988e4df4274c70f1197b87977f21c85176f0699ae388a"
+    },
+    {
+      "path": "skills/review/references/evidence-review.md",
+      "bytes": 4809,
+      "sha256": "03171d6d2b2ea4aa48ef6d10032eae6f5254136a8a898d23066b16cdf2629436"
+    },
+    {
+      "path": "skills/review/SKILL.md",
+      "bytes": 12955,
+      "sha256": "dcabc0cd29f0ca2a21017e7d2fd519b83cf68f996c5d0879540d82cf3404fa92"
+    },
+    {
+      "path": "skills/run/SKILL.md",
+      "bytes": 14084,
+      "sha256": "d115af455c581fdad265cba99c30e13c62f6a382559854db000ba4382378a390"
+    },
+    {
+      "path": "skills/setup/SKILL.md",
+      "bytes": 7808,
+      "sha256": "e102ed6094b24b5646cb609a7310f756025a5c00a07dc4a10da7b402a06503ec"
+    },
+    {
+      "path": "TELEMETRY.md",
+      "bytes": 12687,
+      "sha256": "1761b84f67f9f064ecfd8e1f8ddacdf8b715e7b4d60420738c1ceb7b406c98c9"
+    },
+    {
+      "path": "THIRD-PARTY-NOTICES.txt",
+      "bytes": 139706,
+      "sha256": "f50322585f7a3dd46f04bb29a7ca370c91be54294dfa8bbe92c911786f8ce6cb"
+    }
+  ],
+  "instructions": [
+    {
+      "path": "guidance/authoring/vally-0.19.md",
+      "sha256": "9660850468c202a0c683507868b49b94e3623f6e075b8b4eb68692e6226a968e"
+    },
+    {
+      "path": "skills/compare/SKILL.md",
+      "sha256": "98e2683827c7d55ba57cd5f283e649b755aeb578f2cc356a15bc4e4cb093c04e"
+    },
+    {
+      "path": "skills/create/references/agents.md",
+      "sha256": "1ce8cb1973f81ff1c387a0d0154aa17f58429d03c29fb1f37ee0b7bae0a838f8"
+    },
+    {
+      "path": "skills/create/references/hosts/vscode.md",
+      "sha256": "211ae4c9df53e328b145cd3e3f7822154aa01353d28c3374a8fc042d5f958669"
+    },
+    {
+      "path": "skills/create/references/instructions-and-prompts.md",
+      "sha256": "19223d1be8c09d77c0d54032fc4a880f34f84564f51e56c8554fb50c9e27bd2f"
+    },
+    {
+      "path": "skills/create/references/method.md",
+      "sha256": "9b1666de4f21f45f4142bc49ff7d723635e2ea61f72aeefff8e34b3bfd0ac303"
+    },
+    {
+      "path": "skills/create/references/skills.md",
+      "sha256": "2854780247163ac7607a556ddefe25721548e29524412d97fbf733defed1b7fd"
+    },
+    {
+      "path": "skills/create/references/tools-and-mcp.md",
+      "sha256": "14b47c1fa5666fa0163f284d5c30bfd6218e4a911e8449a8ce4882ec25ba2b29"
+    },
+    {
+      "path": "skills/create/references/vally-0.19.md",
+      "sha256": "9660850468c202a0c683507868b49b94e3623f6e075b8b4eb68692e6226a968e"
+    },
+    {
+      "path": "skills/create/SKILL.md",
+      "sha256": "fc300d61e4980a703d85c3cef89335abfb50f3ab6d7ce15a492197dbe2c87592"
+    },
+    {
+      "path": "skills/improve/references/agents.md",
+      "sha256": "1ce8cb1973f81ff1c387a0d0154aa17f58429d03c29fb1f37ee0b7bae0a838f8"
+    },
+    {
+      "path": "skills/improve/references/hosts/vscode.md",
+      "sha256": "211ae4c9df53e328b145cd3e3f7822154aa01353d28c3374a8fc042d5f958669"
+    },
+    {
+      "path": "skills/improve/references/instructions-and-prompts.md",
+      "sha256": "19223d1be8c09d77c0d54032fc4a880f34f84564f51e56c8554fb50c9e27bd2f"
+    },
+    {
+      "path": "skills/improve/references/method.md",
+      "sha256": "9b1666de4f21f45f4142bc49ff7d723635e2ea61f72aeefff8e34b3bfd0ac303"
+    },
+    {
+      "path": "skills/improve/references/skills.md",
+      "sha256": "2854780247163ac7607a556ddefe25721548e29524412d97fbf733defed1b7fd"
+    },
+    {
+      "path": "skills/improve/references/tools-and-mcp.md",
+      "sha256": "14b47c1fa5666fa0163f284d5c30bfd6218e4a911e8449a8ce4882ec25ba2b29"
+    },
+    {
+      "path": "skills/improve/references/vally-0.19.md",
+      "sha256": "9660850468c202a0c683507868b49b94e3623f6e075b8b4eb68692e6226a968e"
+    },
+    {
+      "path": "skills/improve/SKILL.md",
+      "sha256": "f3ccd1d85e50692af73988e4df4274c70f1197b87977f21c85176f0699ae388a"
+    },
+    {
+      "path": "skills/review/references/evidence-review.md",
+      "sha256": "03171d6d2b2ea4aa48ef6d10032eae6f5254136a8a898d23066b16cdf2629436"
+    },
+    {
+      "path": "skills/review/SKILL.md",
+      "sha256": "dcabc0cd29f0ca2a21017e7d2fd519b83cf68f996c5d0879540d82cf3404fa92"
+    },
+    {
+      "path": "skills/run/SKILL.md",
+      "sha256": "d115af455c581fdad265cba99c30e13c62f6a382559854db000ba4382378a390"
+    },
+    {
+      "path": "skills/setup/SKILL.md",
+      "sha256": "e102ed6094b24b5646cb609a7310f756025a5c00a07dc4a10da7b402a06503ec"
+    }
+  ],
+  "telemetry": {
+    "schemaVersion": 1,
+    "vscode": {
+      "enabled": true,
+      "transport": "1ds",
+      "configurationSha256": "4c5a8dd20b301257006018f6da20ae57d691f298a87a88652ef01b6cd222c3a1"
+    },
+    "plugin": {
+      "enabled": true,
+      "transport": "applicationinsights",
+      "configurationSha256": "5299dfda819b1ae7312cdc93b78bdae5fae9528e8a091b780194912138ac5aca"
+    }
+  },
+  "bundles": [
+    {
+      "path": "com.github.copilot/extensions/copilot-evals/workbench.mjs",
+      "sha256": "c5175c8fba2719a6fa0d5400abe4525ce4ba76c2d956729568d818729b0d93d8"
+    },
+    {
+      "path": "com.github.copilot/extensions/copilot-evals/extension.mjs",
+      "sha256": "60d0480988e14aee5920b478c6a4dc303e4813866dce1c30fd598b632547d350"
+    },
+    {
+      "path": "dist/mcp/server.mjs",
+      "sha256": "50f0c0386d4ad98bd0af2b66d274be17fcfacbc6d59392fb06178d8f1a3b0f47"
+    }
+  ]
+}
