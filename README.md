@@ -66,10 +66,16 @@ or search Extensions for `GitHub.copilot-evals` from publisher **GitHub**.
 The VS Code extension provides the Evals sidebar, Canvas and native VS Code
 tools, and bundles the six Evals Plugin skills.
 
-You can also install the standalone Plugin in VS Code through **Chat: Open
-Customizations > Browse > Configure Marketplaces > Add Marketplace** with
-`github/evals`, which installs the six skills and the bundled `copilot-evals`
-MCP server (`mcp.json`).
+You can also install the standalone Plugin in VS Code using a one-click link
+(which installs the six skills and the bundled `copilot-evals` MCP server via
+`mcp.json`):
+
+- **Stable (`github/evals`):** [Add marketplace](vscode://chat-plugin/add-marketplace?ref=github%2Fevals) (`vscode://chat-plugin/add-marketplace?ref=github%2Fevals`) or [Install eval Plugin](vscode://chat-plugin/install?source=github%2Fevals&plugin=eval) (`vscode://chat-plugin/install?source=github%2Fevals&plugin=eval`)
+- **Prerelease (`github/evals#plugin-preview`):** [Add preview marketplace](vscode://chat-plugin/add-marketplace?ref=github%2Fevals%23plugin-preview) (`vscode://chat-plugin/add-marketplace?ref=github%2Fevals%23plugin-preview`) or [Install preview eval Plugin](vscode://chat-plugin/install?source=github%2Fevals%23plugin-preview&plugin=eval) (`vscode://chat-plugin/install?source=github%2Fevals%23plugin-preview&plugin=eval`)
+
+On older VS Code builds or other harnesses, use **Chat: Open Customizations >
+Browse > Configure Marketplaces > Add Marketplace** with `github/evals` (or
+`github/evals#plugin-preview` for prerelease).
 
 ### VS Code Agents
 
@@ -128,6 +134,7 @@ comparing saved results make no model calls.
 Each eval run or grader test asks you to review its execution effects and
 token/credit costs before running. Eval setup scripts, tools, custom graders and
 AI judges can execute code and incur charges under your normal local permissions.
+A passing check doesn't guarantee the AI will get it right every time.
 Saved results are written to `.copilot\evals\results` in your project; review
 their contents before sharing them.
 
