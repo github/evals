@@ -9,6 +9,7 @@ compare after your next change.
 | Component | What it provides |
 | --- | --- |
 | Six skills | `create`, `review`, `improve`, `run`, `compare` and `setup` (model-invocable in natural language across all Plugin hosts) |
+| Three automation blueprints | Portable `.automation.md` definitions (`eval-health-review`, `eval-smoke-run`, `eval-skill-compare`) for VS Code Agents **Customizations > Automations** |
 | `/eval` CLI command | Interactive workflows in Copilot CLI and GitHub Copilot App (`/eval setup`, `/eval create`, `/eval review`, `/eval improve`, `/eval run`, `/eval compare`) |
 | Evals Canvas | Visual side-panel workspace to browse project assets, draft evals, inspect outlines/YAML and read saved run reports |
 | MCP server | 20-tool Model Context Protocol server (`copilot-evals` via `mcp.json`) bundled with the plugin |
