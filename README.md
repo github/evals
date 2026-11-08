@@ -12,7 +12,7 @@ compare after your next change.
 | Three automation blueprints | Portable `.automation.md` definitions (`eval-health-review`, `eval-smoke-run`, `eval-skill-compare`) for VS Code Agents **Customizations > Automations** |
 | `/eval` CLI command | Interactive workflows in Copilot CLI and GitHub Copilot App (`/eval setup`, `/eval create`, `/eval review`, `/eval improve`, `/eval run`, `/eval compare`) |
 | Evals Canvas | Visual side-panel workspace to browse project assets, draft evals, inspect outlines/YAML and read saved run reports |
-| MCP server | 20-tool Model Context Protocol server (`copilot-evals` via `mcp.json`) bundled with the plugin |
+| MCP server | 15-tool Model Context Protocol server (`copilot-evals` via `mcp.json`) bundled with the plugin |
 
 ### Skills and commands
 
@@ -89,7 +89,7 @@ Install the standalone Plugin in VS Code Agents for the Copilot harness:
    **github-copilot-evals** before choosing **Install**.
 4. Open **Plugins** to check its enabled state and selected scope, then start
    a fresh project session. Installing the Plugin automatically registers its
-   six skills, Evals Canvas and 20-tool `copilot-evals` MCP server (`mcp.json`).
+   six skills, Evals Canvas and 15-tool `copilot-evals` MCP server (`mcp.json`).
 
 ## Create your first eval
 
