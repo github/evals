@@ -118,7 +118,9 @@ compare the new run against the previous saved result.
 ## Runner setup
 
 Running evals uses the local eval runner. Open the Evals Canvas and go to
-**Settings > Advanced > Install eval runner**, or run `/eval setup`.
+**Settings > Advanced > Install eval runner** (or run
+**GitHub Copilot Evals: Set up test runner** in VS Code). Use `/eval setup` to
+configure project eval folders and test suites.
 
 | Dependency | Minimum | Used for |
 | --- | --- | --- |
@@ -191,10 +193,11 @@ and defaults to the current working directory. Run with `--help` or `--version`
 to inspect CLI options without starting a stdio session.
 
 Read tools inspect inventory, eval definitions, saved runs, status and saved-run
-comparisons. Write and execution tools (`evals_save_draft`, `evals_run`,
-`evals_test_graders`, `evals_grader_catalog` and `evals_configure_runtime`)
-use your host's normal file permissions and require host form approval before
-running commands, graders or models.
+comparisons. `evals_save_draft` validates and saves new files under your host's
+normal tool permissions without an extra save form, while execution and runtime
+tools (`evals_run`, `evals_test_graders`, `evals_grader_catalog` and
+`evals_configure_runtime`) require host form approval before running commands,
+graders or models.
 
 ### Verify an extracted release archive
 
