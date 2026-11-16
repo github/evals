@@ -6,20 +6,14 @@
   },
   "metadata": {
     "description": "GitHub Copilot Evals (Preview) Plugin distribution.",
-    "version": "0.24.36"
+    "version": "0.24.41"
   },
   "plugins": [
     {
       "name": "eval",
       "description": "GitHub Copilot Evals (Preview): set up a project with /eval setup, create and save evals with /eval create, save revised copies with /eval improve, run with /eval run, review with /eval review, and compare saved runs or explore one skill with /eval compare. Setup is optional; saves use normal host permissions and runs require cost/effect approval.",
-      "version": "0.24.36",
-      "source": {
-        "source": "github",
-        "repo": "github/evals",
-        "ref": "copilot-evals-v0.24.36",
-        "sha": "295cee9bd6d1b141678cc541a0a4a298b7dbb059",
-        "path": "packages/plugin"
-      }
+      "version": "0.24.41",
+      "source": "./packages/plugin"
     }
   ]
 }
