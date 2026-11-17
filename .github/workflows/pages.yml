@@ -40,14 +40,16 @@ jobs:
           RELEASE_TAG: ${{ github.event.release.tag_name }}
         run: |
           set -euo pipefail
-          TAG="${INPUT_TAG:-${RELEASE_TAG:-}}"
-          if [ -z "$TAG" ]; then
-            TAG="$(node -e 'const fs = require("node:fs"); const c = JSON.parse(fs.readFileSync(".github/plugin/marketplace.json", "utf8")); process.stdout.write(c.plugins[0].source.ref);')"
-          fi
+          CATALOG_TAG="$(node -e 'const fs = require("node:fs"); const c = JSON.parse(fs.readFileSync(".github/plugin/marketplace.json", "utf8")); process.stdout.write(c.plugins[0].source.ref);')"
+          TAG="${INPUT_TAG:-${RELEASE_TAG:-$CATALOG_TAG}}"
           case "$TAG" in
             copilot-evals-v[0-9]*.[0-9]*.[0-9]*) VERSION="${TAG#copilot-evals-v}" ;;
             *) echo "Invalid release tag: $TAG" >&2; exit 1 ;;
           esac
+          if [ "$TAG" != "$CATALOG_TAG" ]; then
+            echo "Refusing to deploy release tag $TAG because the current marketplace catalog tag is $CATALOG_TAG." >&2
+            exit 1
+          fi
           ARCHIVE="github-copilot-evals-website-${VERSION}.zip"
           mkdir -p artifacts/download artifacts/site
           gh release download "$TAG" --repo github/evals --dir artifacts/download --pattern "$ARCHIVE" --pattern "WEBSITE-SHA256SUMS"
