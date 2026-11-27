@@ -1,0 +1,248 @@
+GitHub Limited Use Source License
+
+Version 1.0
+Copyright © 2026 GitHub, Inc.
+
+1. Purpose
+
+This License permits people and organizations to inspect, study, use, modify, and contribute to the Software, subject to two principal limitations:
+
+1. the Software may be used only with Authorized Tooling; and
+2. the Software may not be commercially exploited.
+
+This License is a source-available license. It is not an open-source license approved by the Open Source Initiative.
+
+2. Definitions
+
+“GitHub” means GitHub, Inc. and its affiliates.
+
+“Software” means the software, source code, object code, documentation, and other materials distributed by GitHub with this License, including modifications and derivative works based on those materials.
+
+“Authorized Tooling” means:
+
+1. Visual Studio Code;
+2. Visual Studio;
+3. GitHub Copilot CLI;
+4. the GitHub Copilot App;
+5. other GitHub Copilot products, services, extensions, development environments, and evaluation, testing, and development harnesses made available or approved by GitHub; and
+6. any additional product, service, application, harness, or environment that GitHub expressly designates in writing as Authorized Tooling.
+
+A reference to a product includes successor versions of that product unless GitHub expressly provides otherwise.
+
+“Internal Use” means use by a person or organization for its own evaluation, development, testing, research, or internal business operations. Internal Use does not include providing the Software or its functionality to third parties as a product or service.
+
+“Commercial Exploitation” means directly or indirectly:
+
+1. selling, licensing, sublicensing, renting, or leasing the Software;
+2. charging a fee for access to the Software or its material functionality;
+3. offering the Software or its material functionality as a hosted, managed, consulting, evaluation, or software-as-a-service offering;
+4. incorporating the Software into a product or service offered to third parties for compensation;
+5. receiving compensation specifically for distributing, supporting, configuring, or operating the Software for a third party; or
+6. using the Software, or code derived from it, to create or operate a product or service that substitutes for the Software.
+
+Commercial Exploitation does not include an organization’s Internal Use merely because the organization operates for profit, pays its personnel, or uses the Software in connection with its ordinary business activities.
+
+“Contribution” means any source code, object code, documentation, design, test, issue attachment, or other material intentionally submitted to GitHub for inclusion in or development of the Software.
+
+“Contributor” means any person or entity that submits a Contribution.
+
+“Distribute” means to provide a copy of the Software to another person or entity by any means.
+
+3. License grant
+
+Subject to this License, GitHub grants you a worldwide, non-exclusive, non-transferable, non-sublicensable, royalty-free license to:
+
+1. access, read, inspect, and study the Software;
+2. reproduce the Software as reasonably necessary for a permitted use;
+3. use and execute the Software solely with Authorized Tooling;
+4. modify the Software solely for use with Authorized Tooling;
+5. use the Software for Internal Use;
+6. prepare and submit Contributions to GitHub; and
+7. distribute the Software or your modifications only as permitted by Section 5.
+
+No rights are granted except those expressly stated in this License.
+
+Using the Software within Authorized Tooling to evaluate, test, or develop any model, agent, skill, MCP server, or other AI project, including ones not made by GitHub, is a permitted use.
+
+4. Use restrictions
+
+You may not:
+
+1. use or execute the Software outside Authorized Tooling;
+2. engage in Commercial Exploitation of the Software;
+3. use the Software as a standalone product when it is designed to operate as part of Authorized Tooling;
+4. adapt or integrate the Software for use primarily with an editor, IDE, harness, platform, or service that is not Authorized Tooling;
+5. provide the Software or its material functionality to third parties as a hosted or managed service;
+6. sell, license, sublicense, rent, lease, or otherwise monetize the Software;
+7. use technical measures to bypass or defeat a restriction intended to limit the Software to Authorized Tooling;
+8. remove or obscure copyright, license, attribution, source, or other proprietary notices;
+9. represent that GitHub sponsors, endorses, or approves your modification, distribution, product, or service; or
+10. use GitHub’s names, logos, trademarks, or service marks except as separately authorized in writing.
+
+Use of the Software for unlawful activity or in violation of rights belonging to GitHub or another person is prohibited.
+
+5. Limited distribution rights
+
+You may Distribute an unmodified or modified copy of the Software only if:
+
+1. the distribution is made without charge;
+2. the distribution is solely intended to facilitate a use permitted by this License;
+3. the recipient is informed that the Software may be used only with Authorized Tooling and may not be commercially exploited;
+4. you provide the complete text of this License with the distribution;
+5. you retain all copyright, attribution, and proprietary notices;
+6. you clearly identify any material modifications you made;
+7. you do not impose terms that conflict with or narrow GitHub’s rights under this License; and
+8. you do not make any representation or warranty on GitHub’s behalf.
+
+Each recipient receives its license directly from GitHub under this License. You may not grant additional rights in the Software.
+
+GitHub may require that particular distributions occur through a GitHub-designated repository, extension marketplace, package registry, or other approved channel.
+
+6. Contributions
+
+6.1 Agreement to contribution terms
+
+By intentionally submitting a Contribution to GitHub, you agree to this Section 6. A Contribution is “submitted” when you provide it through a pull request, commit, patch, issue, email, or another contribution channel identified by GitHub.
+
+GitHub should provide reasonably prominent notice of these contribution terms in the repository’s contribution instructions or submission workflow.
+
+6.2 Copyright license
+
+You grant GitHub and its affiliates a perpetual, worldwide, irrevocable, non-exclusive, transferable, sublicensable, royalty-free license to:
+
+1. reproduce, prepare derivative works of, modify, adapt, translate, and combine your Contribution;
+2. publicly display, publicly perform, distribute, communicate, make available, and otherwise exploit your Contribution;
+3. include your Contribution in the Software or in any other GitHub product or service;
+4. license or sublicense your Contribution under this License or under different terms, including proprietary or open-source terms; and
+5. exercise all other copyright rights necessary to use, distribute, enforce, commercialize, and relicense your Contribution.
+
+This license continues even if GitHub does not accept or later removes your Contribution.
+
+6.3 Patent license
+
+You grant GitHub, its affiliates, and recipients of software incorporating your Contribution a perpetual, worldwide, irrevocable, non-exclusive, transferable, sublicensable, royalty-free patent license to make, have made, use, offer to sell, sell, import, and otherwise transfer the Contribution.
+
+This patent license applies only to patent claims that you can license and that are necessarily infringed by your Contribution alone or by its combination with the Software as submitted.
+
+If you initiate patent litigation alleging that the Software or a Contribution infringes a patent, any patent licenses granted to you under this License terminate as of the date the litigation is initiated.
+
+6.4 Contributor representations
+
+You represent that:
+
+1. you have the legal right and authority to submit the Contribution and grant the rights in this Section;
+2. the Contribution is your original work or you have identified any third-party materials and their applicable licenses;
+3. your Contribution does not knowingly violate another person’s copyright, patent, trade-secret, privacy, publicity, contractual, or other rights;
+4. if you submit the Contribution on behalf of an employer or another organization, you are authorized to bind that organization to these terms; and
+5. you have disclosed any applicable license or other restriction that could affect GitHub’s use of the Contribution.
+
+You are not required to provide support for your Contribution unless you separately agree to do so.
+
+6.5 No obligation to use
+
+GitHub is not required to review, accept, use, distribute, or maintain any Contribution. GitHub may modify, remove, or decline a Contribution for any reason.
+
+6.6 Relicensing and enforcement
+
+GitHub may license or relicense the Software, including Contributions, under this License or other terms. GitHub may enforce rights in the Software and Contributions, but is not required to do so.
+
+Nothing in this Section transfers ownership of your Contribution to GitHub unless you and GitHub separately agree in writing.
+
+7. GitHub’s retained rights
+
+GitHub retains all rights, title, and interest in the Software that are not expressly granted under this License.
+
+The restrictions in this License do not limit GitHub’s own use, licensing, distribution, modification, commercialization, or exploitation of the Software. GitHub may offer the Software under different terms to other parties.
+
+8. Third-party materials
+
+The Software may contain or depend on third-party software, data, documentation, or other materials governed by separate terms. Those separate terms control the applicable third-party materials.
+
+This License does not grant rights that GitHub does not have authority to grant. You are responsible for complying with applicable third-party licenses and notices.
+
+If a third-party license grants broader rights in a separately identifiable component, this License does not reduce those rights with respect to that component.
+
+9. Feedback
+
+If you provide suggestions, ideas, or feedback that are not Contributions, you grant GitHub a perpetual, worldwide, irrevocable, non-exclusive, transferable, sublicensable, royalty-free license to use and exploit that feedback for any purpose without restriction or compensation.
+
+10. Compliance and records
+
+You must comply with applicable laws when using the Software, including export-control, sanctions, privacy, data-protection, intellectual-property, and technology-use laws.
+
+Upon a reasonable written request concerning a suspected material violation, you must provide information reasonably necessary to confirm whether your use or distribution complies with this License. This provision does not require disclosure of legally privileged information, trade secrets unrelated to the Software, or personal data prohibited from disclosure by law.
+
+11. Term and termination
+
+This License begins when you first access, copy, modify, use, or Distribute the Software.
+
+Your rights terminate automatically if you materially violate this License and do not cure the violation within 30 days after receiving written notice from GitHub. No cure period applies to:
+
+1. intentional Commercial Exploitation;
+2. intentional circumvention of Authorized Tooling restrictions;
+3. infringement or misappropriation of GitHub’s intellectual property;
+4. unauthorized sublicensing; or
+5. repeated violations.
+
+Upon termination, you must stop using and Distributing the Software and delete copies in your possession or control, except copies required to be retained by law or standard backup systems.
+
+Sections concerning Contributions, ownership, third-party materials, disclaimers, limitations of liability, enforcement, and general terms survive termination.
+
+GitHub may seek injunctive or equitable relief for an actual or threatened violation where monetary damages would be inadequate.
+
+12. Disclaimer of warranties
+
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, THE SOFTWARE IS PROVIDED “AS IS” AND “AS AVAILABLE,” WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, EXPRESS, IMPLIED, OR STATUTORY.
+
+GITHUB DISCLAIMS ALL WARRANTIES, INCLUDING WARRANTIES OF TITLE, NON-INFRINGEMENT, MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, ACCURACY, SECURITY, RELIABILITY, AND QUIET ENJOYMENT.
+
+GITHUB DOES NOT WARRANT THAT THE SOFTWARE WILL BE ERROR-FREE, SECURE, AVAILABLE, OR SUITABLE FOR ANY PARTICULAR USE.
+
+13. Limitation of liability
+
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, GITHUB AND ITS AFFILIATES, LICENSORS, CONTRIBUTORS, AND SUPPLIERS WILL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, EXEMPLARY, OR PUNITIVE DAMAGES, OR FOR ANY LOSS OF DATA, PROFITS, REVENUE, GOODWILL, OR BUSINESS OPPORTUNITY, ARISING FROM OR RELATED TO THE SOFTWARE OR THIS LICENSE.
+
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, THE TOTAL AGGREGATE LIABILITY OF GITHUB AND THE OTHER COVERED PARTIES FOR ALL CLAIMS ARISING FROM OR RELATED TO THE SOFTWARE OR THIS LICENSE WILL NOT EXCEED THE GREATER OF:
+
+1. THE AMOUNT YOU PAID GITHUB SPECIFICALLY FOR THE SOFTWARE DURING THE 12 MONTHS BEFORE THE EVENT GIVING RISE TO LIABILITY; OR
+2. US $100.
+
+These limitations apply regardless of the legal theory and even if a party was advised that damages were possible.
+
+14. Trademarks
+
+This License does not grant permission to use GitHub’s trade names, trademarks, service marks, logos, domain names, or other brand features.
+
+You may make factual statements identifying the Software or stating that your modification is based on the Software, provided that you follow applicable GitHub trademark guidelines and do not imply endorsement.
+
+15. Revised versions
+
+GitHub may publish revised versions of this License. A revised version applies only if:
+
+1. the Software identifies that version as applicable;
+2. you affirmatively accept the revised version; or
+3. you use a later release of the Software distributed under the revised version.
+
+A revised version does not retroactively alter the license applicable to a copy you previously received, unless you agree otherwise.
+
+16. General terms
+
+This License constitutes the entire agreement regarding the rights it grants in the Software, except for a separate written agreement between you and GitHub.
+
+A waiver must be in writing and does not waive later violations.
+
+If a provision is unenforceable, it will be modified only to the minimum extent necessary to make it enforceable. The remaining provisions remain effective.
+
+You may not assign this License without GitHub’s prior written consent. GitHub may assign this License in connection with a merger, acquisition, corporate reorganization, or transfer of the Software.
+
+The words “including” and “includes” mean “including without limitation.”
+
+This License does not create an employment, agency, partnership, joint-venture, fiduciary, or franchise relationship.
+
+17. Governing law and venue
+
+This License is governed by the laws of the state of California, excluding its conflict-of-laws rules.
+
+Any dispute arising from or related to this License must be brought exclusively in the state or federal courts located in the state of California, and each party consents to their jurisdiction and venue.
+
+Nothing in this section prevents GitHub from seeking injunctive or equitable relief in another jurisdiction to protect intellectual-property rights or prevent unauthorized use or distribution.
